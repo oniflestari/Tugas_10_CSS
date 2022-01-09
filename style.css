@@ -1,0 +1,26 @@
+/*STYLE*/
+.container {
+  background-image: radial-gradient(ellipse at top right, white 1%, red 99%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.satu,
+.dua {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.satu {
+  height: 400px;
+  background-image: radial-gradient(circle at 50% 100%, white, blue);
+}
+
+.dua {
+  height: 180px;
+  background-image: radial-gradient(circle farthest-side at 0% 50%, white, blue, white);
+  top: 365px;
+}
